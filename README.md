@@ -6,6 +6,12 @@ It's not a basic tutorial PHP and is not intended for people who are new to prog
 PHP comes with a best coding standard. You are highly recommended to follow these standards.
 you can find PHP standards recommendation in [here](https://www.php-fig.org/psr/).
 
+#### Commenting and Documentation
+It's super important to add comments to files, classes, methods and everything that is in your code, To clarify and help collaboration.
+you need to follow commenting standards.
+[comment format](https://gist.github.com/ryansechrest/8138375#6-comments) ,
+[PHPDocumentator](https://docs.phpdoc.org/latest/)
+
 ## Language & OO
 Title | C# | PHP | Comments
 --- | --- | --- | --
