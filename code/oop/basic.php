@@ -81,7 +81,7 @@ class SimpleClass
     // method declaration. no modifier means public
     public function displayVar()
     {
-        echo "\ndisplay class property \$var: " . $this->var; # $this is a refenrece to the object calling
+        echo "\ndisplay class property \$var: " . $this->var; # $this is a reference to the object calling
     }
 
     // Adding Two numbers by calling a service class
@@ -114,7 +114,7 @@ echo "\n Adding 1 + 2 + 3 + 4 + 5 + 6 + 7 = ". $obj->addNumbers(1, 2, 3, 4, 5, 6
 // private properties can not be access from outside.
 // echo "\n $obj->num"; will cause a fatal error
 
-// duplicate an object, same as passing instacne to a function
+// duplicate an object, same as passing instance to a function
 $dupObj = $obj;
 // or you can use clone
 $cloneObj = clone($obj);
