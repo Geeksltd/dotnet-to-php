@@ -1,0 +1,97 @@
+PHP OOP topics and their Matching C#
+
+PHP 
++ Defining a class
++ define a property
++ define a method
++ property default value
++ method argument fixed
++ method argument dynamic
++ access modifiers(visibility)
+    + private
+    + protected
+    + public
+    + static
++ constructor
++ destructor
++ create object(class instance)
++ object assignment
++ late binding
++ replicate objects
++ reference
++ Types on OOP
++ define methods with Types
++ define properties with types
++ create new object from inside class
++ create object and call method in single line expression
++ PHP_EOL
+
++ $this
++ initialization
++ heredoc
++ nowdoc
+
++ inheritance
++ Extending class
++ Overriding methods
++ final keyword
++ parent::
++ ::class
++ Covariance
++ Contravariance
+ 
++ Abstract classes
++ Abstract methods
++ method signature
++ Null or optional argument
+
++ Define Interfaces
++ class constants
++ multiple inheritance in interfaces
++ override properties
+
+
++ Traits
++ use keyword
++ Precedence order
++ Conflict Resolution
++ insteadof 
++ as operator
++ Composing Traits
++ properties in traits
++ abstract properties traits
++ abstract methods in traits
+
++ include classes
++ Autoload classes
++ Scopes
++ self
++ parent
++ static
+
+
++ Object iteration
++ Iterator interface
++ Iterator interface methods
++ IteratorAggregate
++ ++$var
++ $var++
++ comparing objects with ==
++ comparing objects with ===
++ object references
++ Serializing objects
++ unserializing objects
+
++ Magic methods
++ Overloading(Dynamically creating properties and methods)
++ define multiple properties in a single line
++ var_dump
++ var_export
++ eval
++ array_key_exists
++ implode
++ clone objects
+
++ Anonymous classes
++ difference with normal class
++ initialize anonymous class
