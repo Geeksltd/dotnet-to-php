@@ -1,33 +1,33 @@
 PHP OOP topics and their Matching C#
 
 PHP 
-+ Defining a class
-+ define a property
-+ define a method
-+ property default value
-+ method argument fixed
-+ method argument dynamic
-+ access modifiers(visibility)
++ Defining a class - Added
++ define a property - Added
++ define a method - Added
++ property default value - Added
++ method argument fixed - Added
++ method argument dynamic - Added
++ access modifiers(visibility) - Added
     + private
     + protected
     + public
-    + static
-+ constructor
-+ destructor
-+ create object(class instance)
++ constructor - Added
++ destructor - Added
++ create object(class instance) - Added
 + object assignment
 + late binding
 + replicate objects
 + reference
 + Types on OOP
-+ define methods with Types
-+ define properties with types
++ define methods with Types - Added
++ define properties with types - Added
 + create new object from inside class
 + create object and call method in single line expression
 + PHP_EOL
++ static members -Added 
 
 + $this
-+ initialization
++ initialization - Added
 + heredoc
 + nowdoc
 

@@ -66,6 +66,8 @@ class SimpleClass
     public ServiceClass $addService;
     private $service = 'ServiceClass'; # Late Binding in PHP
     public ServiceClass $addServiceLate;
+    // define a static member
+    public static int $static_num = 100;
 
 
     // constructor
@@ -108,24 +110,25 @@ class SimpleClass
 }
 // creating new object of class. and calling it's public method/properties
 $obj = new SimpleClass();
+echo "static member: ",$obj::$static_num,"\n";
 $obj->displayVar();
-echo "\n Adding 20 + 19 = ". $obj->addNumbers(20, 19);
+echo "Adding 20 + 19 = ". $obj->addNumbers(20, 19);
 echo "\n Adding 1 + 2 + 3 + 4 + 5 + 6 + 7 = ". $obj->addNumbers(1, 2, 3, 4, 5, 6, 7);
 // private properties can not be access from outside.
 // echo "\n $obj->num"; will cause a fatal error
 
 // duplicate an object, same as passing instance to a function
-$dupObj = $obj;
+$dup_obj = $obj;
 // or you can use clone
-$cloneObj = clone($obj);
+$clone_obj = clone($obj);
 
 // Creating a reference to the object
-$refObj  =& $obj;
-$refObj->displayVar();
+$ref_obj  =& $obj;
+$ref_obj->displayVar();
 
 // different ways of creating new object
-$newObj = new $obj();
+$new_obj = new $obj();
 //use :: to call static methods.
-$newObjFromClass = SimpleClass::getNewInstance();
+$new_obj_from_class = SimpleClass::getNewInstance();
 // create object and use it in a single expression
 (new SimpleClass())->displayVar();
